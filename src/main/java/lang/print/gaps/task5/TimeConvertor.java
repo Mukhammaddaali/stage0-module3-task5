@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class TimeConvertor {
     public void convert(float minutes) {
-        int second;
-        second = (int) (minutes*60);
+        float second;
+        second =  (minutes*60);
         System.out.println(second);
     }
     public void main(String[] args){

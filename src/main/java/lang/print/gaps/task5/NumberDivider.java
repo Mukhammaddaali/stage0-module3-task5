@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class NumberDivider {
     void divide(int toBeDivided) {
         float division;
-        division=toBeDivided/5;
+        division=(float) (toBeDivided/5);
         System.out.println(division);
     }
     public void main(String[] args){
