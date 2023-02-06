@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class NumberDivider {
     void divide(int toBeDivided) {
-        float division;
-        division=(float) (toBeDivided/5);
-        System.out.println(division);
+
+        System.out.println((float) (toBeDivided/5));
     }
     public void main(String[] args){
         Scanner input=new Scanner(System.in);
